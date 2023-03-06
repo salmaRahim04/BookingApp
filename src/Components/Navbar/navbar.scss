@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+$Navbgcolor: #c9adc6;
+$color:rgb(255, 255, 255);
+$fontFamily: 'Roboto Mono', monospace;
+.navbar{
+    height:50px;
+    background-color:$Navbgcolor;
+    display: flex;
+    justify-content: center;
+    font-family: $fontFamily;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color:$color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+
+}
+.navButton{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: $Navbgcolor;
+    border: none;
+    border-radius: 4px;
+}

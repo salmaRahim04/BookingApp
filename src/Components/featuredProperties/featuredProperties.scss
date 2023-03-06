@@ -1,0 +1,53 @@
+$bgcolor: #fdeefc;
+.slide-container{
+  background-color:$bgcolor;
+  padding: 30px;
+  width: 90%;
+}
+
+.fpItem{
+    font-family: 'Cormorant Garamond', sans-serif;
+    flex: 1;
+    gap: 10px;
+    right: 0;
+    margin-right: 9rem;
+    padding-left: 30px;
+    background-color: #b08ead;
+    color: #fff;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+  }
+  .fpItem h2{
+    color: #fff;
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .fpImg{
+    width: 700px;
+    height: 675px;
+    object-fit: cover;
+    position: relative;
+
+  }
+  
+  .fpName{
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .slide-container span{
+    font-weight: 300;
+    font-size: 25px !important;
+
+  }
+  
+  .fpPrice{
+    font-weight: 500;
+  }
+  
+  .icons{
+   display: flex;
+   justify-content: end;
+  }
+  

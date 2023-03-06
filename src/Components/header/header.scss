@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+$bgcolor: #c9adc6;
+$color:rgb(249, 249, 249);
+$fontFamily: 'Cormorant Garamond';
+.header{
+    background-color: $bgcolor;
+    color: $color;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+.headerList{
+    display: flex;
+    gap:40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    grid: 10px;
+}
+.headerListItem.active{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerTitle{
+    margin: 20px 10px;
+}
+.headerDesc{
+    margin: 20px 10px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 55px;
+    font-family: $fontFamily;
+}
+.headerBtn{
+    background-color: #9b7d98;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+    margin: 20px 10px;
+    cursor: pointer;
+
+}
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #48377d; 
+    border-radius: 5px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+.date,.options{
+    position: absolute;
+    top:50px;
+    z-index: 2;
+
+}
+.options{
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px -5px grba(0,0,0,0.4);
+
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color: black;
+    font-size: 12px;
+}
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid $bgcolor;
+    color: $bgcolor;
+    cursor: pointer;
+    background-color:white
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
+.typewriter {
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    display: inline-block;
+    border-right: .15em solid #9b7d98;; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 65% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #9b7d98; }
+  }

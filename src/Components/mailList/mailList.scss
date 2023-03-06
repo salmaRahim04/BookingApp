@@ -1,0 +1,48 @@
+$bgcolor: #b99bb6;
+
+.mail{
+    width: 50%;
+    margin-top: 50px;
+    background-color: $bgcolor;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.mailDesc{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', sans-serif;
+
+}
+.mailInputContainer > input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+.mailInputContainer > input::placeholder {
+    color: #fff;
+}
+
+.button{
+    height: 50px;
+    min-width: 210px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    transition: background-color 200ms ease, color 200ms ease;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+.button:hover{
+    color: #b99bb6;
+    background-color: #fff;
+}

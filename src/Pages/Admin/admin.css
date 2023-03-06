@@ -1,0 +1,35 @@
+.adminPage{
+    background-color: rgb(242, 240, 240);
+    padding: 20px;
+    margin: -20px !important;
+}
+.form{
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.formtitle{
+    text-align: center;
+    text-transform: uppercase;
+}
+.input{
+    display: block;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+}
+.addbtn{
+    background-color: #c9adc6;
+    border: none;
+    color: #fff;
+    height: 50px;
+    min-width: 210px;
+    border: 1px solid #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
